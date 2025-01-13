@@ -8,7 +8,7 @@ class CalcController extends Controller
 {
     public function calcs($number1 , $operator , $number2)
     {
-        if ($operator == "addition") {
+        if ($operator == "agitddition") {
             $result = $number1 + $number2;
         } elseif ($operator == "subtraction") {
             $result = $number1 - $number2;
