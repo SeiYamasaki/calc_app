@@ -1,11 +1,12 @@
 <?php
 
 namespace App\Http\Controllers;
+
 use Illuminate\Http\Request;
-use function PHPUnit\Framework\returnSelf;
+//use function PHPUnit\Framework\returnSelf;
 class CalcController extends Controller
 {
-    public function calcs($operator, $number1, $number2)
+    public function calcs($number1 , $operator , $number2)
     {
         if ($operator == "addition") {
             $result = $number1 + $number2;
